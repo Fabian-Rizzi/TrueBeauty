@@ -27,10 +27,11 @@ logBtn.addEventListener('click', function logBtnFn() {
         let emailInput = document.getElementsByClassName("logInEmailInput");
       let passwordInput = document.getElementsByClassName("logInPasswordInput")
       if (emailInput[0].value === "lena92@gmail.com" && passwordInput[0].value === "lena92") {
-          console.log("datos correctos");
+          console.log("access grantes");
           window.location.href = 'home.html';
+          
       } else {
-          console.log("datos incorrectos");
+          console.log("access denied");
       }
       }, 800)
 });
