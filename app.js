@@ -28,7 +28,7 @@ logBtn.addEventListener('click', function logBtnFn() {
       let passwordInput = document.getElementsByClassName("logInPasswordInput")
       if (emailInput[0].value === "lena92@gmail.com" && passwordInput[0].value === "lena92") {
           console.log("datos correctos");
-          window.location.href = '/home.html';
+          window.location.href = 'home.html';
       } else {
           console.log("datos incorrectos");
       }
